@@ -1,0 +1,89 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.0.4.min.css" type="text/css" />
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-widgets-1.0.4.min.css" type="text/css" />
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-tables-1.0.4.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.0.4.min.js"></script>
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-1.0.4.min.js"></script>
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-tables-1.0.4.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="1f9cbd8d-8d2c-44fb-bfb2-5dcb6a62747c" data-root-id="1006"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1067">
+          {"2e1319ab-9787-4ef6-b2eb-ba544ea39fbf":{"roots":{"references":[{"attributes":{"editor":{"id":"1035","type":"StringEditor"},"field":"downloads","formatter":{"id":"1036","type":"StringFormatter"},"title":"Downloads"},"id":"1005","type":"TableColumn"},{"attributes":{},"id":"1032","type":"Selection"},{"attributes":{},"id":"1033","type":"UnionRenderers"},{"attributes":{"editor":{"id":"1034","type":"StringEditor"},"field":"dates","formatter":{"id":"1002","type":"DateFormatter"},"title":"Date"},"id":"1003","type":"TableColumn"},{"attributes":{},"id":"1034","type":"StringEditor"},{"attributes":{"source":{"id":"1001","type":"ColumnDataSource"}},"id":"1007","type":"CDSView"},{"attributes":{"columns":[{"id":"1003","type":"TableColumn"},{"id":"1005","type":"TableColumn"}],"height":280,"source":{"id":"1001","type":"ColumnDataSource"},"view":{"id":"1007","type":"CDSView"},"width":400},"id":"1006","type":"DataTable"},{"attributes":{},"id":"1002","type":"DateFormatter"},{"attributes":{},"id":"1035","type":"StringEditor"},{"attributes":{"callback":null,"data":{"dates":[1393632000000.0,1393718400000.0,1393804800000.0,1393891200000.0,1393977600000.0,1394064000000.0,1394150400000.0,1394236800000.0,1394323200000.0,1394409600000.0],"downloads":[100,79,1,24,12,80,48,7,67,40]},"selected":{"id":"1032","type":"Selection"},"selection_policy":{"id":"1033","type":"UnionRenderers"}},"id":"1001","type":"ColumnDataSource"},{"attributes":{},"id":"1036","type":"StringFormatter"}],"root_ids":["1006"]},"title":"Bokeh Application","version":"1.0.4"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1067').textContent;
+                  var render_items = [{"docid":"2e1319ab-9787-4ef6-b2eb-ba544ea39fbf","roots":{"1006":"1f9cbd8d-8d2c-44fb-bfb2-5dcb6a62747c"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

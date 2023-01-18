@@ -1,0 +1,1 @@
+SELECT gpa FROM lgu.student where year = '2015' and gpa = 'A+' and dept_name = 'Astronomy'
