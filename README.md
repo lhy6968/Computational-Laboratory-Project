@@ -1,1 +1,10 @@
 # Computational-Laboratory-Project
+# Assignment1
+In this assignment, I design and develop an interactive 8-puzzle game. It has a squareframed board consisting of 8 numbered square tiles initially placed in random order. The board has an empty space where an adjacent tile can be slid to. The objective of the game is to re-arrange the tiles in sequential order by repeatedly making sliding moves.
+# Assignment2
+In this assignment, I design and develop a Data Visualization application to provide school administrators and students with a web-enabled interface to perform online query on school information, such information as course description, student GPA, course location, instructor name and so on; based on the responses from the users, the application then generates a SQL statement to fetch the data needed; based on the data returned from SQL server, the screen will be refreshed with the requested information shown in a tabular format or as graphical plot. The application will be composed of 3 primary components: Graphical User Interface (GUI), SQL Interface and Graphical Tool.
+# Assignment3
+In this assignment, I apply Machine Learning skills. I design and develop one of its popular classification algorithm called kNN (k-Nearest Neighbors) to programmatically predict handwritten digits in its digitized format. kNN is supervised based algorithm by majority vote of its neighbors. It is supervised in a sense that a sufficient large sample dataset of known target values is carefully selected. This sample dataset will be split into 2 groups. One group will be used to formula a 
+kNN model to be used for prediction. It’s called Training. The other group is used to verify the accuracy of the established model, called Testing. The Training-Testing cycle might result in several iterations of tuning and adjustment until a satisfactory model is achieved with high accuracy of positive predictions, higher better. Once such a model has been implemented, it’s ready to make prediction. To make a prediction, simply feed an unknown value of same format to the program and then perform the 
+required computation in accordance to the established kNN model. 
+
